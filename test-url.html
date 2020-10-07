@@ -1,0 +1,32 @@
+<h1>Cinema CVIEW URL Test Plan</h1>
+
+<h3>Starting the Cinema Server</h3>
+
+<pre><code>
+        python -m cinemasci.server --viewer explorer --data data/sphere.cdb --port 8200
+</code></pre>
+
+<h3>Tests</h3>
+
+<table>
+<tr>
+    <td><strong>Explorer</strong></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Normal behavior</td>
+    <td><a href="http://127.0.0.1:8200/?viewer=explorer&databases=data/sphere.cdb">
+            http://127.0.0.1:8200/?viewer=explorer&databases=data/sphere.cdb</a></td>
+</tr>
+</table>
+<table>
+<tr>
+    <td><strong>View</strong></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Normal behavior</td>
+    <td><a href="http://127.0.0.1:8200/?viewer=view&databases=data/sphere.cdb">
+            http://127.0.0.1:8200/?viewer=view&databases=data/sphere.cdb</a></td>
+</tr>
+</table>
