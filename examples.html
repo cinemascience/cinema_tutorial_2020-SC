@@ -1,4 +1,4 @@
-<h1>Cinema CVIEW URL Test Plan</h1>
+<h2>Cinema CVIEW URL Test Plan</h2>
 
 <h3>Starting the Cinema Server</h3>
 
@@ -7,26 +7,49 @@
 </code></pre>
 
 <h3>Tests</h3>
-
 <table>
 <tr>
-    <td><strong>Explorer</strong></td>
-    <td></td>
-</tr>
-<tr>
+    <td><strong>Test</strong></td>
+    <td>&nbsp</td>
     <td>Normal behavior</td>
+    <td>&nbsp</td>
+    <td><a href="http://127.0.0.1:8200/?viewer=test&databases=data/sphere.cdb">
+            http://127.0.0.1:8200/?viewer=test&databases=data/sphere.cdb</a></td>
+</tr>
+<tr><td>&nbsp</td></tr>
+
+<tr>
+    <td><strong>Explorer</strong></td>
+    <td>&nbsp</td>
+    <td>Normal behavior</td>
+    <td>&nbsp</td>
     <td><a href="http://127.0.0.1:8200/?viewer=explorer&databases=data/sphere.cdb">
             http://127.0.0.1:8200/?viewer=explorer&databases=data/sphere.cdb</a></td>
 </tr>
-</table>
-<table>
+<tr>
+    <td></td>
+    <td>&nbsp</td>
+    <td>ERROR: not there</td>
+    <td>&nbsp</td>
+    <td><a href="http://127.0.0.1:8200/?viewer=explorer&databases=error.cdb">
+            http://127.0.0.1:8200/?viewer=explorer&databases=error.cdb</a></td>
+</tr>
+<tr><td>&nbsp</td></tr>
+
 <tr>
     <td><strong>View</strong></td>
-    <td></td>
-</tr>
-<tr>
+    <td>&nbsp</td>
     <td>Normal behavior</td>
+    <td>&nbsp</td>
     <td><a href="http://127.0.0.1:8200/?viewer=view&databases=data/sphere.cdb">
             http://127.0.0.1:8200/?viewer=view&databases=data/sphere.cdb</a></td>
+</tr>
+<tr>
+    <td></td>
+    <td>&nbsp</td>
+    <td>ERROR: not there</td>
+    <td>&nbsp</td>
+    <td><a href="http://127.0.0.1:8200/?viewer=view&databases=error.cdb">
+            http://127.0.0.1:8200/?viewer=view&databases=error.cdb</a></td>
 </tr>
 </table>
