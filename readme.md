@@ -1,11 +1,11 @@
 
 # Cinema SuperComputing Tutorial 2020
 
-This tutorial introduces core Cinema concepts and functionality.  As part of this tutorial, you will export a Cinema database from ParaView and run a Jupyter notebook workflow that takes in a Cinema database, updates it by calculating various image statistics and then views the new Cinema database in a browswer-based Cinema:Explorer viewer.  
+This tutorial introduces core Cinema concepts and functionality.  As part of this tutorial, you will export a Cinema database from ParaView and run a Jupyter notebook workflow that takes in a Cinema database, updates it by calculating various image statistics and then views the new Cinema database in a browser-based Cinema:Explorer viewer.  
 
 To run this tutorial, you will need:
 
-- The latest version of [ParaView:](https://www.paraview.org/download/)
+- The latest version of ParaView: [https://www.paraview.org/download/](https://www.paraview.org/download/)
 - Python 3.7 or above
 - pandas, numpy
 - os, shutil
