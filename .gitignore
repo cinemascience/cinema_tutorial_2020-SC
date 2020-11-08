@@ -5,3 +5,4 @@ cinema_jnc/pngviewer/data/nyx_slice.cdb/*
 cinema_jnc/pngviewer/data/nyx_slice.cdb
 nyx_volume.cdb/*.png
 nyx_volume.cdb/data.csv
+.vs/*
